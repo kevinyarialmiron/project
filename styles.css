@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+p{  
+    display: inline;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+h1 {
+    width: auto;
+    display: flex;
+    justify-content: center;    /* Centra el contenido horizontalmente */
+    align-items: center;        /* Centra el contenido verticalmente */
+    text-align: center;         /* Centra el texto si hay varias líneas */
+    border: solid black;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: rgb(255, 255, 149);
+    border-bottom: solid rgb(58, 28, 0) 10px;
+}
+h2{ 
+    border-radius: 10px;
+    padding: 10px;
+    display: inline;
+    background-color: brown;
+    border-bottom: solid black 5px;
+    text-align: center;
+    justify-content: center;
+}
+div{
+    padding: 50px;
+    border-radius: 15px;
+    background-color: rgb(92, 3, 114);
+    margin: 10px;
+}
+div p {
+   margin: 20px;
+   color: black;
+   background-color:bisque; 
+   padding: 10px;
+   border-radius: 15px;
+   border: solid rgb(139, 67, 0) 1px;
+   border-bottom: solid black 5px;
+}
